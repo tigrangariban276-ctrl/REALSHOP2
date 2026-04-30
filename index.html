@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REALshop</title>
+    <link rel="stylesheet" href="style.css">
+   <link rel="icon" href="foto\i.ico" type="image/ico">
+</head>
+<body>
+
+<header class="header">
+    <div class="logo">
+        <h1>REALshop</h1>
+        <p>Hala Madrid</p>
+    </div>
+    <div class="cart-icon" id="cartIconBtn">
+        <span>🛒 Корзина</span>
+        <span class="cart-count" id="cartCountBadge">0</span>
+    </div>
+</header>
+
+<div class="container">
+    <!-- ВКЛАДКИ (ТАБЫ) -->
+    <div class="tabs">
+        <button class="tab-btn active" data-category="balls"> Мячи</button>
+        <button class="tab-btn" data-category="jerseys"> Футболки</button>
+        <button class="tab-btn" data-category="gear"> Экипировка</button>
+        <button class="tab-btn" data-category="boots"> Бутсы</button>
+    </div>
+
+    <!-- КАТАЛОГ ТОВАРОВ (контент загружается через JS) -->
+    <section class="catalog">
+        <div class="products-grid" id="productsGrid"></div>
+    </section>
+
+    <!-- БЛОК КОРЗИНЫ -->
+   <!-- БЛОК КОРЗИНЫ С ФОРМОЙ КОНТАКТНЫХ ДАННЫХ -->
+<section class="cart-panel" id="cartPanel">
+    <h2>📦 Ваша корзина</h2>
+    <div id="cartItemsContainer" class="cart-items">
+        <div class="empty-message">Корзина пуста, добавьте товары</div>
+    </div>
+    <div id="cartTotalBlock" class="cart-total">Итого: 0 ₽</div>
+    
+    <!-- ФОРМА КОНТАКТНЫХ ДАННЫХ (ПОЛНАЯ) -->
+    <div class="contact-form">
+        <h3>📋 Контактные данные для связи</h3>
+        <div class="form-row">
+            <div class="form-group">
+                <label>Ваше имя *</label>
+                <input type="text" id="clientName" placeholder="Иван Иванов">
+                <small class="error-message" id="nameError"></small>
+            </div>
+            <div class="form-group">
+                <label>Телефон *</label>
+                <input type="tel" id="clientPhone" placeholder="+7 (999) 123-45-67">
+                <small class="error-message" id="phoneError"></small>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group">
+                <label>Email *</label>
+                <input type="email" id="clientEmail" placeholder="example@mail.ru">
+                <small class="error-message" id="emailError"></small>
+            </div>
+            <div class="form-group">
+                <label>Адрес доставки *</label>
+                <input type="text" id="clientAddress" placeholder="Город, улица, дом, квартира">
+                <small class="error-message" id="addressError"></small>
+            </div>
+        </div>
+        <div class="form-group full-width">
+            <label>Комментарий к заказу (необязательно)</label>
+            <textarea id="clientComment" rows="2" placeholder="Пожелания по доставке, удобное время и т.д."></textarea>
+        </div>
+    </div>
+    
+    <button class="checkout-btn" id="checkoutBtn">💳 Оформить заказ</button>
+    <button class="clear-cart" id="clearCartBtn">🗑️ Очистить корзину</button>
+</section>
+</div>
+
+<footer>
+    <p>© 2026 REALshop — Только оригинальный инвентарь.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
