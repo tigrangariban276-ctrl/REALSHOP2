@@ -3,52 +3,52 @@
 // ============================================================
 const productsData = {
     balls: [
-        { id: 1, name: "Adidas Al Rihla", price: 5990, desc: "Официальный мяч ЧМ-2022", image: "https://avatars.mds.yandex.net/i?id=83872563b15ddb0f64a2da89b16e94a9_l-8181844-images-thumbs&n=13", category: "balls" },
-        { id: 2, name: "Nike Flight", price: 5490, desc: "Аэродинамические канавки", image: "https://www.footballstore.ru/images/gal/27827/goods_27827_0_thumb5.jpg", category: "balls" },
-        { id: 3, name: "Select Numero 10", price: 3990, desc: "FIFA Quality", image: "https://avatars.mds.yandex.net/i?id=785082d4794a46201af29370826f51f10498f986-4462005-images-thumbs&n=13", category: "balls" },
-        { id: 4, name: "Puma Orbita 1", price: 4490, desc: "Технология POA", image: "https://avatars.mds.yandex.net/i?id=c0fa6c834200da32c7da2771d2e3c377_l-12496607-images-thumbs&n=13", category: "balls" },
-        { id: 5, name: "Derbystar Brillant APS", price: 6990, desc: "Немецкое качество", image: "https://basket-05.wbbasket.ru/vol776/part77630/77630215/images/big/1.webp", category: "balls" },
-        { id: 6, name: "Molten F5A5000", price: 5290, desc: "Футзальный мяч", image: "https://avatars.mds.yandex.net/get-mpic/3907093/img_id1439990560870256065.jpeg/orig", category: "balls" },
-        { id: 7, name: "Uhlsport Elysia", price: 4790, desc: "Тренировочный мяч", image: "https://www.tradeinn.com/f/13664/136644792/uhlsport-elysia-competition-ligue-1-18-19-football-ball.webp", category: "balls" },
-        { id: 8, name: "Kipsta F900", price: 3490, desc: "Для дворового футбола", image: "https://main-cdn.sbermegamarket.ru/big2/hlr-system/161/302/549/979/136/600018299645b7.jpg", category: "balls" },
-        { id: 9, name: "Wilson Traditional", price: 3890, desc: "Классический дизайн", image: "https://i.ebayimg.com/00/s/MTQ5NVgxNTAw/z/by4AAOSw8CRkW~DG/$_1.JPG", category: "balls" },
-        { id: 10, name: "Nike Premier League", price: 7990, desc: "Официальный мяч АПЛ", image: "https://www.football-mania.ru/f/product/fz3033_100_01.jpg", category: "balls" }
+        { id: 1, name: "Адидас Аль Рила", price: 5990, desc: "Официальный мяч ЧМ-2022", image: "https://avatars.mds.yandex.net/i?id=83872563b15ddb0f64a2da89b16e94a9_l-8181844-images-thumbs&n=13", category: "balls" },
+        { id: 2, name: "Найк Флайт", price: 5490, desc: "Аэродинамические канавки", image: "https://www.footballstore.ru/images/gal/27827/goods_27827_0_thumb5.jpg", category: "balls" },
+        { id: 3, name: "Селект Нумеро 10", price: 3990, desc: "FIFA Quality", image: "https://avatars.mds.yandex.net/i?id=785082d4794a46201af29370826f51f10498f986-4462005-images-thumbs&n=13", category: "balls" },
+        { id: 4, name: "Пума Орбита 1", price: 4490, desc: "Технология POA", image: "https://avatars.mds.yandex.net/i?id=c0fa6c834200da32c7da2771d2e3c377_l-12496607-images-thumbs&n=13", category: "balls" },
+        { id: 5, name: "Дербистар Бриллиант APS", price: 6990, desc: "Немецкое качество", image: "https://basket-05.wbbasket.ru/vol776/part77630/77630215/images/big/1.webp", category: "balls" },
+        { id: 6, name: "Молтен F5A5000", price: 5290, desc: "Футзальный мяч", image: "https://avatars.mds.yandex.net/get-mpic/3907093/img_id1439990560870256065.jpeg/orig", category: "balls" },
+        { id: 7, name: "Ульшпорт Элизия", price: 4790, desc: "Тренировочный мяч", image: "https://www.tradeinn.com/f/13664/136644792/uhlsport-elysia-competition-ligue-1-18-19-football-ball.webp", category: "balls" },
+        { id: 8, name: "Кипста F900", price: 3490, desc: "Для дворового футбола", image: "https://main-cdn.sbermegamarket.ru/big2/hlr-system/161/302/549/979/136/600018299645b7.jpg", category: "balls" },
+        { id: 9, name: "Уилсон Традиционный", price: 3890, desc: "Классический дизайн", image: "https://i.ebayimg.com/00/s/MTQ5NVgxNTAw/z/by4AAOSw8CRkW~DG/$_1.JPG", category: "balls" },
+        { id: 10, name: "Найк Премьер-Лига", price: 7990, desc: "Официальный мяч АПЛ", image: "https://www.football-mania.ru/f/product/fz3033_100_01.jpg", category: "balls" }
     ],
     jerseys: [
-        { id: 11, name: "Barcelona Home 2024/25", price: 5490, desc: "Сине-гранатовый", image: "https://futurefootballshop.ru/wa-data/public/shop/products/22/97/19722/images/170452/170452.700.jpg", category: "jerseys" },
-        { id: 12, name: "Real Madrid Home 2024/25", price: 5490, desc: "Белая классика", image: "https://futurefootballshop.ru/wa-data/public/shop/products/29/97/19729/images/168571/168571.700.jpg", category: "jerseys" },
-        { id: 13, name: "PSG Home 2024/25", price: 5990, desc: "Черная с красной полосой", image: "https://futurefootballshop.ru/wa-data/public/shop/products/09/21/22109/images/196546/196546.700.jpg", category: "jerseys" },
-        { id: 14, name: "Bayern Home 2024/25", price: 5290, desc: "Красная", image: "https://futurefootballshop.ru/wa-data/public/shop/products/20/97/19720/images/168580/168580.700.jpg", category: "jerseys" },
-        { id: 15, name: "Manchester City Away", price: 5490, desc: "Небесно-синяя", image: "https://futurefootballshop.ru/wa-data/public/shop/products/15/97/19715/images/167897/167897.700.jpg", category: "jerseys" },
-        { id: 16, name: "Liverpool Home 2024/25", price: 5490, desc: "Красная", image: "https://futurefootballshop.ru/wa-data/public/shop/products/50/99/19950/images/175339/175339.700.jpg", category: "jerseys" },
-        { id: 17, name: "Arsenal Third", price: 4990, desc: "Красно-белая", image: "https://futurefootballshop.ru/wa-data/public/shop/products/77/97/19777/images/168049/168049.700.jpg", category: "jerseys" },
-        { id: 18, name: "Juventus Home", price: 5190, desc: "Черно-белые полосы", image: "https://futurefootballshop.ru/wa-data/public/shop/products/66/97/19766/images/167948/167948.700.jpg", category: "jerseys" },
-        { id: 19, name: "AC Milan Home", price: 5390, desc: "Красно-черные", image: "https://futurefootballshop.ru/wa-data/public/shop/products/16/98/19816/images/168467/168467.700.jpg", category: "jerseys" },
-        { id: 20, name: "Chelsea Home 2024/25", price: 5490, desc: "Синяя", image: "https://futurefootballshop.ru/wa-data/public/shop/products/59/97/19759/images/167872/167872.700.jpg", category: "jerseys" }
+        { id: 11, name: "Барселона Домашняя 2024/25", price: 5490, desc: "Сине-гранатовый", image: "https://futurefootballshop.ru/wa-data/public/shop/products/22/97/19722/images/170452/170452.700.jpg", category: "jerseys" },
+        { id: 12, name: "Реал Мадрид Домашняя 2024/25", price: 5490, desc: "Белая классика", image: "https://futurefootballshop.ru/wa-data/public/shop/products/29/97/19729/images/168571/168571.700.jpg", category: "jerseys" },
+        { id: 13, name: "ПСЖ Домашняя 2024/25", price: 5990, desc: "Черная с красной полосой", image: "https://futurefootballshop.ru/wa-data/public/shop/products/09/21/22109/images/196546/196546.700.jpg", category: "jerseys" },
+        { id: 14, name: "Бавария Домашняя 2024/25", price: 5290, desc: "Красная", image: "https://futurefootballshop.ru/wa-data/public/shop/products/20/97/19720/images/168580/168580.700.jpg", category: "jerseys" },
+        { id: 15, name: "Манчестер Сити Выездная 2024/25", price: 5490, desc: "Небесно-синяя", image: "https://futurefootballshop.ru/wa-data/public/shop/products/15/97/19715/images/167897/167897.700.jpg", category: "jerseys" },
+        { id: 16, name: "Ливерпуль Домашняя 2024/25", price: 5490, desc: "Красная", image: "https://futurefootballshop.ru/wa-data/public/shop/products/50/99/19950/images/175339/175339.700.jpg", category: "jerseys" },
+        { id: 17, name: "Арсенал Домашняя 2024/25", price: 4990, desc: "Красно-белая", image: "https://futurefootballshop.ru/wa-data/public/shop/products/77/97/19777/images/168049/168049.700.jpg", category: "jerseys" },
+        { id: 18, name: "Ювентус Домашняя 2024/25", price: 5190, desc: "Черно-белые полосы", image: "https://futurefootballshop.ru/wa-data/public/shop/products/66/97/19766/images/167948/167948.700.jpg", category: "jerseys" },
+        { id: 19, name: "Милан Домашняя2024/25", price: 5390, desc: "Красно-черные", image: "https://futurefootballshop.ru/wa-data/public/shop/products/16/98/19816/images/168467/168467.700.jpg", category: "jerseys" },
+        { id: 20, name: "Челси Домашняя 2024/25", price: 5490, desc: "Синяя", image: "https://futurefootballshop.ru/wa-data/public/shop/products/59/97/19759/images/167872/167872.700.jpg", category: "jerseys" }
     ],
     gear: [
-        { id: 21, name: "Uhlsport Speed Contact", price: 5990, desc: "Вратарские перчатки", image: "https://i.ebayimg.com/images/g/Qt4AAOSwHmVmzadk/s-l400.jpg", category: "gear" },
-        { id: 22, name: "Nike Charge Shield", price: 2790, desc: "Щитки", image: "https://keeper-shop.ru/images/product_images/popup_images/shop_items_catalog_image512223.jpg", category: "gear" },
-        { id: 23, name: "Adalid Compression Socks", price: 1590, desc: "Компрессионные гетры", image: "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/48dc3223b4054571838f90efe8a3c902_9366/Copa_Zone_Cushion_5_OTC_White_IR1086_03_standard.jpg", category: "gear" },
-        { id: 24, name: "Puma Teamwear Bag", price: 3490, desc: "Спортивная сумка", image: "https://static.onlinetrade.ru/img/items/b/sumka_sportivnaya_puma_team_goal_09023301_66x28x30sm_55l_3590730_1.jpg", category: "gear" },
-        { id: 25, name: "G-Form Pro Shin Guards", price: 3990, desc: "Щитки с RPT", image: "https://www.tradeinn.com/f/14192/141928669/g-form-щитки-pro-s-blade-ce.webp", category: "gear" },
-        { id: 26, name: "McDavid Hex Knee Pad", price: 2490, desc: "Наколенники", image: "https://i.pinimg.com/736x/ef/f4/47/eff4471e9aa629e74d5cf730d364f713.jpg", category: "gear" },
-        { id: 27, name: "Nike Pitch Training Vest", price: 1890, desc: "Манишка", image: "https://ir.ozone.ru/s3/multimedia-1-c/6916205964.jpg", category: "gear" },
-        { id: 28, name: "Adidas Copa Zone", price: 2290, desc: "Тактическая жилетка", image: "https://img-edg.joomcdn.net/acbd6f4117556a7662b6543b43f2c87fa98b71c0_1024_1024.jpeg", category: "gear" },
-        { id: 29, name: "Puma Evospeed Water Bottle", price: 990, desc: "Бутылка 750мл", image: "https://amazingred.ru/upload/iblock/d90/mw6y7y2l75h94m9gv6b22zdnbzmcdlh3.jpg", category: "gear" },
-        { id: 30, name: "Uhlsport Flex Grip", price: 4490, desc: "Перчатки для начинающих", image: "https://n.cdn.cdek.shopping/images/shopping/pbhhjPguPMEaZuOF.jpg?v=1", category: "gear" }
+        { id: 21, name: "Ульшпорт Спид Контакт", price: 5990, desc: "Вратарские перчатки", image: "https://i.ebayimg.com/images/g/Qt4AAOSwHmVmzadk/s-l400.jpg", category: "gear" },
+        { id: 22, name: "Найк Чардж Шилд", price: 2790, desc: "Щитки", image: "https://keeper-shop.ru/images/product_images/popup_images/shop_items_catalog_image512223.jpg", category: "gear" },
+        { id: 23, name: "Адалид Компрессионные гетры", price: 1590, desc: "Компрессионные гетры", image: "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/48dc3223b4054571838f90efe8a3c902_9366/Copa_Zone_Cushion_5_OTC_White_IR1086_03_standard.jpg", category: "gear" },
+        { id: 24, name: "Пума Тимвеар Сумка", price: 3490, desc: "Спортивная сумка", image: "https://static.onlinetrade.ru/img/items/b/sumka_sportivnaya_puma_team_goal_09023301_66x28x30sm_55l_3590730_1.jpg", category: "gear" },
+        { id: 25, name: "Джи-Форм Про Щитки", price: 3990, desc: "Щитки с RPT", image: "https://www.tradeinn.com/f/14192/141928669/g-form-щитки-pro-s-blade-ce.webp", category: "gear" },
+        { id: 26, name: "МакДэвид Хекс Наколенники", price: 2490, desc: "Наколенники", image: "https://i.pinimg.com/736x/ef/f4/47/eff4471e9aa629e74d5cf730d364f713.jpg", category: "gear" },
+        { id: 27, name: "Найк Питч Тренировочная манишка", price: 1890, desc: "Манишка", image: "https://ir.ozone.ru/s3/multimedia-1-c/6916205964.jpg", category: "gear" },
+        { id: 28, name: "Адидас Копа Зона", price: 2290, desc: "Тактическая жилетка", image: "https://img-edg.joomcdn.net/acbd6f4117556a7662b6543b43f2c87fa98b71c0_1024_1024.jpeg", category: "gear" },
+        { id: 29, name: "Пума Эвостид Бутылка", price: 990, desc: "Бутылка 750мл", image: "https://amazingred.ru/upload/iblock/d90/mw6y7y2l75h94m9gv6b22zdnbzmcdlh3.jpg", category: "gear" },
+        { id: 30, name: "Ульшпорт Флекс Грип", price: 4490, desc: "Перчатки для начинающих", image: "https://n.cdn.cdek.shopping/images/shopping/pbhhjPguPMEaZuOF.jpg?v=1", category: "gear" }
     ],
     boots: [
-        { id: 31, name: "Nike Mercurial Vapor 15", price: 13990, desc: "Элитные бутсы", image: "https://shop.premier-football.ru/upload/shop_3/5/1/3/item_513797/item_513797.jpg", category: "boots" },
-        { id: 32, name: "Adidas Predator Accuracy", price: 12490, desc: "Зоны удара", image: "https://shop.premier-football.ru/upload/shop_3/5/1/3/item_513185/shop_items_catalog_image513185.jpg", category: "boots" },
-        { id: 33, name: "Puma Ultra 5", price: 10990, desc: "Сверхлегкие", image: "https://www.football-mania.ru/f/product/10816701_02.jpg", category: "boots" },
-        { id: 34, name: "New Balance Furon v7", price: 9990, desc: "Гибкие", image: "https://avatars.mds.yandex.net/i?id=36d7f9776082a53771304373dbb2ce91_l-4495871-images-thumbs&n=13", category: "boots" },
-        { id: 35, name: "Mizuno Morelia Neo", price: 15990, desc: "Японское качество", image: "https://avatars.mds.yandex.net/i?id=7ab2091de2067edc02c2617641882d32_l-4227431-images-thumbs&n=13", category: "boots" },
-        { id: 36, name: "Under Armour Magnetico", price: 8990, desc: "CloneFit", image: "https://n.cdn.cdek.shopping/images/shopping/69Sjsi5neTWVNKdl.webp?v=1", category: "boots" },
-        { id: 37, name: "Lotto Solista 200", price: 7990, desc: "Итальянские", image: "https://www.lotto.it/cdn/shop/files/218131_9Z4-01.jpg?v=1744133597&width=2048", category: "boots" },
-        { id: 38, name: "Joma Champions FG", price: 6490, desc: "Для искусственного поля", image: "https://avatars.mds.yandex.net/i?id=0369105f86d64d52d893fd90f33518c8_l-3631034-images-thumbs&n=13", category: "boots" },
-        { id: 39, name: "Kelme Precision", price: 6990, desc: "Испанские", image: "https://basket-28.wbbasket.ru/vol5436/part543652/543652914/images/c516x688/1.webp", category: "boots" },
-        { id: 40, name: "Adidas X Crazyfast", price: 11990, desc: "Speedskin", image: "https://main-cdn.sbermegamarket.ru/big1/hlr-system/-57/283/418/893/105/7/100069274069b0.jpg", category: "boots" }
+        { id: 31, name: "Найк Меркуриал Вейпор 15", price: 13990, desc: "Элитные бутсы", image: "https://shop.premier-football.ru/upload/shop_3/5/1/3/item_513797/item_513797.jpg", category: "boots" },
+        { id: 32, name: "Адидас Предейтор Аккураси", price: 12490, desc: "Зоны удара", image: "https://shop.premier-football.ru/upload/shop_3/5/1/3/item_513185/shop_items_catalog_image513185.jpg", category: "boots" },
+        { id: 33, name: "Пума Ультра 5", price: 10990, desc: "Сверхлегкие", image: "https://www.football-mania.ru/f/product/10816701_02.jpg", category: "boots" },
+        { id: 34, name: "Нью Баланс Фьюрон v7", price: 9990, desc: "Гибкие", image: "https://avatars.mds.yandex.net/i?id=36d7f9776082a53771304373dbb2ce91_l-4495871-images-thumbs&n=13", category: "boots" },
+        { id: 35, name: "Мидзуно Морелия Нео", price: 15990, desc: "Японское качество", image: "https://avatars.mds.yandex.net/i?id=7ab2091de2067edc02c2617641882d32_l-4227431-images-thumbs&n=13", category: "boots" },
+        { id: 36, name: "Андер Армор Магнетико", price: 8990, desc: "CloneFit", image: "https://n.cdn.cdek.shopping/images/shopping/69Sjsi5neTWVNKdl.webp?v=1", category: "boots" },
+        { id: 37, name: "Лотто Солиста 200", price: 7990, desc: "Итальянские", image: "https://www.lotto.it/cdn/shop/files/218131_9Z4-01.jpg?v=1744133597&width=2048", category: "boots" },
+        { id: 38, name: "Хома Чемпионс FG", price: 6490, desc: "Для искусственного поля", image: "https://avatars.mds.yandex.net/i?id=0369105f86d64d52d893fd90f33518c8_l-3631034-images-thumbs&n=13", category: "boots" },
+        { id: 39, name: "Кельме Пресижн", price: 6990, desc: "Испанские", image: "https://basket-28.wbbasket.ru/vol5436/part543652/543652914/images/c516x688/1.webp", category: "boots" },
+        { id: 40, name: "Адидас Икс Крейзифаст", price: 11990, desc: "Speedskin", image: "https://main-cdn.sbermegamarket.ru/big1/hlr-system/-57/283/418/893/105/7/100069274069b0.jpg", category: "boots" }
     ]
 };
 
