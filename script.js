@@ -23,7 +23,7 @@ const productsData = {
         { id: 16, name: "Ливерпуль Домашняя 2024/25", price: 5490, desc: "Красная", image: "https://futurefootballshop.ru/wa-data/public/shop/products/50/99/19950/images/175339/175339.700.jpg", category: "jerseys" },
         { id: 17, name: "Арсенал Домашняя 2024/25", price: 4990, desc: "Красно-белая", image: "https://futurefootballshop.ru/wa-data/public/shop/products/77/97/19777/images/168049/168049.700.jpg", category: "jerseys" },
         { id: 18, name: "Ювентус Домашняя 2024/25", price: 5190, desc: "Черно-белые полосы", image: "https://futurefootballshop.ru/wa-data/public/shop/products/66/97/19766/images/167948/167948.700.jpg", category: "jerseys" },
-        { id: 19, name: "Милан Домашняя2024/25", price: 5390, desc: "Красно-черные", image: "https://futurefootballshop.ru/wa-data/public/shop/products/16/98/19816/images/168467/168467.700.jpg", category: "jerseys" },
+        { id: 19, name: "Милан Домашняя 2024/25", price: 5390, desc: "Красно-черные", image: "https://futurefootballshop.ru/wa-data/public/shop/products/16/98/19816/images/168467/168467.700.jpg", category: "jerseys" },
         { id: 20, name: "Челси Домашняя 2024/25", price: 5490, desc: "Синяя", image: "https://futurefootballshop.ru/wa-data/public/shop/products/59/97/19759/images/167872/167872.700.jpg", category: "jerseys" }
     ],
     gear: [
